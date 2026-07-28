@@ -58,13 +58,13 @@ export default function ContactPage() {
                 <div className="flex gap-4">
                   <div className="flex-shrink-0">
                     <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-primary/10">
-                      <Phone className="h-5 w-5 text-primary" />
+                      <MapPin className="h-5 w-5 text-primary" />
                     </div>
                   </div>
                   <div>
-                    <h3 className="text-sm font-semibold text-foreground">Phone</h3>
-                    <p className="text-foreground/70">+1 (555) 123-4567</p>
-                    <p className="text-foreground/70">Mon-Fri, 9am-6pm EST</p>
+                    <h3 className="text-sm font-semibold text-foreground">Location</h3>
+                    <p className="text-foreground/70">31 Tumu Avenue, Kanda</p>
+                    <p className="text-foreground/70">Accra, Ghana</p>
                   </div>
                 </div>
 
@@ -76,7 +76,7 @@ export default function ContactPage() {
                   </div>
                   <div>
                     <h3 className="text-sm font-semibold text-foreground">Email</h3>
-                    <p className="text-foreground/70">info@datanyansa.com</p>
+                    <p className="text-foreground/70">solutions@datanyansa.com</p>
                     <p className="text-foreground/70">We&apos;ll respond within 24 hours</p>
                   </div>
                 </div>
@@ -88,9 +88,9 @@ export default function ContactPage() {
                     </div>
                   </div>
                   <div>
-                    <h3 className="text-sm font-semibold text-foreground">Address</h3>
-                    <p className="text-foreground/70">123 Tech Street</p>
-                    <p className="text-foreground/70">Innovation Hub, CA 94025</p>
+                    <h3 className="text-sm font-semibold text-foreground">Digital Address</h3>
+                    <p className="text-foreground/70">GA-003-5259</p>
+                    <p className="text-xs text-foreground/50 mt-2">Ghana Digital Address</p>
                   </div>
                 </div>
               </div>

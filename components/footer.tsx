@@ -37,7 +37,7 @@ export default function Footer() {
                 </svg>
               </a>
               <a
-                href="mailto:info@datanyansa.com"
+                href="mailto:solutions@datanyansa.com"
                 className="hover:opacity-80 transition-opacity"
                 aria-label="Email"
               >
@@ -106,15 +106,15 @@ export default function Footer() {
             <div className="space-y-3 text-sm">
               <div className="flex gap-2">
                 <MapPin className="h-5 w-5 flex-shrink-0 opacity-75" />
-                <span className="opacity-90">123 Tech Street, Innovation Hub, CA 94025</span>
-              </div>
-              <div className="flex gap-2">
-                <Phone className="h-5 w-5 flex-shrink-0 opacity-75" />
-                <span className="opacity-90">+1 (555) 123-4567</span>
+                <div>
+                  <span className="opacity-90 block">31 Tumu Avenue, Kanda</span>
+                  <span className="opacity-90 block">Accra, Ghana</span>
+                  <span className="text-xs opacity-75 block mt-1">Digital: GA-003-5259</span>
+                </div>
               </div>
               <div className="flex gap-2">
                 <Mail className="h-5 w-5 flex-shrink-0 opacity-75" />
-                <span className="opacity-90">info@datanyansa.com</span>
+                <span className="opacity-90">solutions@datanyansa.com</span>
               </div>
             </div>
           </div>
