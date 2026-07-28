@@ -2,6 +2,7 @@
 
 import { useState } from 'react'
 import Link from 'next/link'
+import Image from 'next/image'
 import { ChevronDown, Menu, X } from 'lucide-react'
 import { cn } from '@/lib/utils'
 
@@ -19,11 +20,15 @@ export default function Header() {
       <nav className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="flex h-20 items-center justify-between">
           {/* Logo */}
-          <Link href="/" className="flex items-center gap-2 font-bold text-xl text-primary">
-            <div className="flex h-8 w-8 items-center justify-center rounded bg-primary">
-              <span className="text-white text-sm font-bold">DN</span>
-            </div>
-            <span className="hidden sm:inline">Data Nyansa</span>
+          <Link href="/" className="flex items-center">
+            <Image
+              src="/logo.png"
+              alt="Data Nyansa - Intelligence Built on Data"
+              width={160}
+              height={60}
+              className="h-14 w-auto"
+              priority
+            />
           </Link>
 
           {/* Desktop Menu */}
