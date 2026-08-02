@@ -12,39 +12,27 @@ export default function Home() {
       <section className="flex-1 relative overflow-hidden py-20 lg:py-32">
         <div className="absolute inset-0 bg-gradient-to-br from-primary/5 to-accent/5" />
         <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-            <div className="text-balance">
-              <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-foreground mb-6 leading-tight">
-                Intelligence Built on <span className="text-primary">Data</span>
-              </h1>
-              <p className="text-lg text-foreground/70 mb-8 leading-relaxed">
-                We transform complex data into actionable insights through cutting-edge AI research, advanced fintech solutions, and strategic advisory services for enterprises and financial institutions.
-              </p>
-              <div className="flex flex-col sm:flex-row gap-4">
-                <Link
-                  href="/services/ai-advisory"
-                  className="inline-flex items-center justify-center px-6 py-3 rounded-lg bg-primary text-primary-foreground font-semibold hover:bg-primary/90 transition-colors"
-                >
-                  Explore Services
-                  <ArrowRight className="ml-2 h-5 w-5" />
-                </Link>
-                <Link
-                  href="/contact"
-                  className="inline-flex items-center justify-center px-6 py-3 rounded-lg border-2 border-primary text-primary font-semibold hover:bg-primary/5 transition-colors"
-                >
-                  Get in Touch
-                </Link>
-              </div>
-            </div>
-
-            {/* Hero Visual */}
-            <div className="relative h-64 sm:h-80 lg:h-96 hidden lg:block">
-              <div className="absolute inset-0 bg-gradient-to-br from-primary via-accent to-secondary rounded-2xl opacity-10" />
-              <div className="absolute top-10 right-10 w-32 h-32 bg-primary rounded-full blur-3xl opacity-20" />
-              <div className="absolute bottom-10 left-10 w-40 h-40 bg-accent rounded-full blur-3xl opacity-20" />
-              <div className="absolute inset-0 flex items-center justify-center">
-                <Brain className="h-32 w-32 text-primary opacity-20" />
-              </div>
+          <div className="max-w-3xl">
+            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-foreground mb-6 leading-tight">
+              Intelligence Built on <span className="text-primary">Data</span>
+            </h1>
+            <p className="text-lg text-foreground/70 mb-8 leading-relaxed">
+              We transform complex data into actionable insights through cutting-edge AI research, advanced fintech solutions, and strategic advisory services for enterprises and financial institutions.
+            </p>
+            <div className="flex flex-col sm:flex-row gap-4">
+              <Link
+                href="/services/ai-advisory"
+                className="inline-flex items-center justify-center px-6 py-3 rounded-lg bg-primary text-primary-foreground font-semibold hover:bg-primary/90 transition-colors"
+              >
+                Explore Services
+                <ArrowRight className="ml-2 h-5 w-5" />
+              </Link>
+              <Link
+                href="/contact"
+                className="inline-flex items-center justify-center px-6 py-3 rounded-lg border-2 border-primary text-primary font-semibold hover:bg-primary/5 transition-colors"
+              >
+                Get in Touch
+              </Link>
             </div>
           </div>
         </div>
