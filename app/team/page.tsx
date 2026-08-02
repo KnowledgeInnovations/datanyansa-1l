@@ -1,6 +1,6 @@
 import Header from '@/components/header'
 import Footer from '@/components/footer'
-import { Mail, Linkedin } from 'lucide-react'
+import { Mail, Share2 } from 'lucide-react'
 
 interface TeamMember {
   name: string
@@ -103,7 +103,7 @@ export default function TeamPage() {
                     Email
                   </button>
                   <button className="flex-1 inline-flex items-center justify-center gap-2 px-3 py-2 rounded text-sm font-medium text-primary hover:bg-primary/10 transition-colors">
-                    <Linkedin className="h-4 w-4" />
+                    <Share2 className="h-4 w-4" />
                     Profile
                   </button>
                 </div>
