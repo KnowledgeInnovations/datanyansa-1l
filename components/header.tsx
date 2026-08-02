@@ -58,7 +58,7 @@ export default function Header() {
                   href="/services/ai-advisory"
                   className="block px-4 py-2 text-sm text-foreground hover:bg-muted rounded-t-lg"
                 >
-                  AI Advisory & Research
+                  AI Advisory, Solutions & Research
                 </Link>
                 <Link
                   href="/services/fintech-training"
@@ -197,7 +197,7 @@ export default function Header() {
                       href="/services/ai-advisory"
                       className="block px-3 py-2 text-sm text-foreground hover:text-primary"
                     >
-                      AI Advisory & Research
+                      AI Advisory, Solutions & Research
                     </Link>
                     <Link
                       href="/services/fintech-training"

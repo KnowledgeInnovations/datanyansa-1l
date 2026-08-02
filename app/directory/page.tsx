@@ -55,7 +55,7 @@ export default function DirectoryPage() {
                   href="/services/ai-advisory"
                   className="block text-primary hover:text-primary/80 transition-colors"
                 >
-                  AI Advisory & Research
+                  AI Advisory, Solutions & Research
                 </Link>
                 <Link
                   href="/services/fintech-training"

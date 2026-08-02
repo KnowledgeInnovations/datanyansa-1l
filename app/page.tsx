@@ -54,7 +54,7 @@ export default function Home() {
               <div className="flex h-12 w-12 items-center justify-center rounded-lg bg-primary/10 mb-4 group-hover:bg-primary group-hover:text-white transition-colors">
                 <Brain className="h-6 w-6 text-primary group-hover:text-white" />
               </div>
-              <h3 className="text-xl font-semibold text-foreground mb-3">AI Advisory & Research</h3>
+              <h3 className="text-xl font-semibold text-foreground mb-3">AI Advisory, Solutions & Research</h3>
               <p className="text-foreground/70 mb-4">
                 Strategic guidance on implementing AI solutions, conducting cutting-edge research, and transforming your business with data-driven intelligence.
               </p>

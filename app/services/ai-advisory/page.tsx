@@ -13,7 +13,7 @@ export default function AIAdvisoryPage() {
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl">
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-foreground mb-6">
-              AI Advisory & <span className="text-primary">Research</span>
+              AI Advisory, <span className="text-primary">Solutions</span> & Research
             </h1>
             <p className="text-xl text-foreground/70 mb-8">
               Strategic guidance on AI implementation, research methodologies, and data-driven transformation for enterprises
@@ -29,7 +29,7 @@ export default function AIAdvisoryPage() {
             <div>
               <h2 className="text-3xl font-bold text-foreground mb-6">Transform with AI</h2>
               <p className="text-foreground/70 mb-4 leading-relaxed">
-                Our AI Advisory & Research services help organizations navigate the complex landscape of artificial intelligence, machine learning, and data science. We provide strategic guidance on technology selection, implementation roadmaps, and organizational change management.
+                Our AI Advisory, Solutions & Research services help organizations navigate the complex landscape of artificial intelligence, machine learning, and data science. We provide strategic guidance on technology selection, implementation roadmaps, and organizational change management.
               </p>
               <p className="text-foreground/70 mb-8 leading-relaxed">
                 Whether you&apos;re beginning your AI journey or optimizing existing systems, our expert team brings proven methodologies and industry best practices to accelerate your digital transformation.

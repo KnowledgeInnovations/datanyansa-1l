@@ -191,7 +191,7 @@ export default function ContactPage() {
                     className="w-full px-4 py-2 rounded-lg border border-border bg-card text-foreground focus:outline-none focus:ring-2 focus:ring-primary"
                   >
                     <option value="">Select a subject</option>
-                    <option value="ai-advisory">AI Advisory & Research</option>
+                    <option value="ai-advisory">AI Advisory, Solutions & Research</option>
                     <option value="fintech-training">Fintech Training</option>
                     <option value="training">Training & Consultancy</option>
                     <option value="partnership">Partnership Opportunity</option>

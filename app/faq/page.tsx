@@ -41,8 +41,8 @@ const faqs: FAQ[] = [
     questions: [
       {
         id: 'services-1',
-        question: 'What is AI Advisory & Research?',
-        answer: 'Our AI Advisory & Research service provides strategic guidance on implementing AI solutions, conducting applied research on emerging technologies, and helping organizations build AI-ready capabilities. We offer technology assessments, implementation roadmaps, and organizational transformation support.',
+        question: 'What is AI Advisory, Solutions & Research?',
+        answer: 'Our AI Advisory, Solutions & Research service provides strategic guidance on implementing AI solutions, conducting applied research on emerging technologies, and helping organizations build AI-ready capabilities. We offer technology assessments, implementation roadmaps, and organizational transformation support.',
       },
       {
         id: 'services-2',
