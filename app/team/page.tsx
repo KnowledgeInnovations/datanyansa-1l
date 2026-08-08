@@ -34,6 +34,13 @@ const teamMembers: TeamMember[] = [
     image: '/muheeb-nuaku.png',
   },
   {
+    name: 'Mildred Asaah',
+    role: 'Communications & Marketing Lead',
+    bio: 'Experienced communications and marketing professional focused on strengthening public relations, brand visibility, and stakeholder engagement.',
+    expertise: ['Communication', 'Public Relations', 'Marketing'],
+    image: '/mildred-asaah.jpeg',
+  },
+  {
     name: 'Eric Osiakwan',
     role: 'Consultant',
     bio: 'Technology investment and innovation consultant supporting strategic advisory and growth-focused solutions.',
