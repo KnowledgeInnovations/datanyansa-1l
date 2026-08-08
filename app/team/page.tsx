@@ -20,10 +20,11 @@ const teamMembers: TeamMember[] = [
     image: '/kwami-ahiabenu.jpeg',
   },
   {
-    name: 'Sarah Chen',
-    role: 'Chief Executive Officer',
-    bio: 'Former VP at a leading fintech company with extensive experience in scaling technology businesses and strategic partnerships.',
-    expertise: ['Business Strategy', 'Fintech', 'Leadership'],
+    name: 'Mildred Asaah',
+    role: 'Communications & Marketing Lead',
+    bio: 'Experienced communications and marketing professional focused on strengthening public relations, brand visibility, and stakeholder engagement.',
+    expertise: ['Communication', 'Public Relations', 'Marketing'],
+    image: '/mildred-asaah.jpeg',
   },
   {
     name: 'Dr. Michael Thompson',
