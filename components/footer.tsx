@@ -39,14 +39,9 @@ export default function Footer() {
                 </svg>
               </a>
               <a
-                href="/"
+                href={`mailto:${['solutions', 'datanyansa.com'].join('@')}`}
                 className="hover:opacity-80 transition-opacity"
                 aria-label="Email Data Nyansa"
-                onClick={(event) => {
-                  event.preventDefault()
-                  const mailbox = ['solutions', 'datanyansa.com'].join('@')
-                  window.location.href = `mailto:${mailbox}`
-                }}
               >
                 <Mail className="h-5 w-5" />
               </a>

@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import Header from '@/components/header'
 import Footer from '@/components/footer'
 import { Mail, Share2 } from 'lucide-react'
@@ -7,14 +8,16 @@ interface TeamMember {
   role: string
   bio: string
   expertise: string[]
+  image?: string
 }
 
 const teamMembers: TeamMember[] = [
   {
-    name: 'Dr. Rajesh Kumar',
+    name: 'Kwami Ahiabenu PhD',
     role: 'Founder & Chief Research Officer',
-    bio: 'PhD in Machine Learning from Stanford University with 15+ years of experience in AI research and enterprise solutions.',
-    expertise: ['AI/ML', 'Data Science', 'Research'],
+    bio: 'PhD in bank sector tech innovation with 20+ years advancing fintech innovation, digital transformation and governance across Africa.',
+    expertise: ['AI/ML', 'Research', 'Fintech'],
+    image: '/kwami-ahiabenu.jpeg',
   },
   {
     name: 'Sarah Chen',
@@ -77,7 +80,17 @@ export default function TeamPage() {
                 className="border border-border rounded-xl bg-card p-6 hover:border-primary transition-colors"
               >
                 <div className="mb-4">
-                  <div className="w-16 h-16 rounded-full bg-gradient-to-br from-primary to-accent mb-4" />
+                  {member.image ? (
+                    <Image
+                      src={member.image}
+                      alt={`${member.name} portrait`}
+                      width={96}
+                      height={96}
+                      className="w-24 h-24 rounded-full object-cover mb-4"
+                    />
+                  ) : (
+                    <div className="w-16 h-16 rounded-full bg-gradient-to-br from-primary to-accent mb-4" />
+                  )}
                   <h3 className="text-xl font-semibold text-foreground">{member.name}</h3>
                   <p className="text-sm font-medium text-primary mb-3">{member.role}</p>
                   <p className="text-sm text-foreground/70 mb-4">{member.bio}</p>
