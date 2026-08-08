@@ -34,10 +34,11 @@ const teamMembers: TeamMember[] = [
     image: '/gobarshev-zanus.png',
   },
   {
-    name: 'Priya Patel',
-    role: 'VP, Training & Consultancy',
-    bio: 'Certified training specialist with experience training thousands of professionals across fintech, banking, and technology sectors.',
-    expertise: ['Training Design', 'Change Management', 'Program Development'],
+    name: 'Muheeb (Kwabena) Nuaku',
+    role: 'AI Automation Specialist | Software Engineer | Tech Solutions',
+    bio: 'Technology professional focused on AI automation, software engineering, and practical technology solutions.',
+    expertise: ['AI Automation', 'Software Engineering', 'Tech Solutions'],
+    image: '/muheeb-nuaku.png',
   },
   {
     name: 'James Wilson',
