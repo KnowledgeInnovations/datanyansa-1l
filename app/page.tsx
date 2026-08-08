@@ -1,7 +1,7 @@
 import Header from '@/components/header'
 import Footer from '@/components/footer'
 import Link from 'next/link'
-import { ArrowRight, Brain, TrendingUp, BookOpen, Users, Zap, LineChart } from 'lucide-react'
+import { ArrowRight, Brain, TrendingUp, BookOpen, Users, Zap, LineChart, Globe2, BarChart3, Sparkles, AudioLines, Landmark } from 'lucide-react'
 
 export default function Home() {
   return (
@@ -34,6 +34,48 @@ export default function Home() {
                 Get in Touch
               </Link>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Featured Initiatives */}
+      <section className="py-16 lg:py-20 bg-card border-y border-border">
+        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+          <div className="mb-10">
+            <p className="text-sm font-semibold uppercase tracking-[0.2em] text-primary mb-3">Our platforms</p>
+            <h2 className="text-3xl sm:text-4xl font-bold text-foreground mb-4">Ideas that move industries forward</h2>
+            <p className="text-lg text-foreground/60 max-w-2xl">
+              Explore the initiatives and solutions shaping Africa&apos;s next chapter of intelligent growth.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-4">
+            {[
+              { name: 'Ghana AI Summit', href: 'https://ghanaaisummit.com', icon: Globe2, detail: 'AI ecosystem' },
+              { name: 'Smart Stock Africa', href: 'https://smartstockafrica.com', icon: BarChart3, detail: 'Market intelligence' },
+              { name: 'Nyansa AI', href: 'https://nyansaai.com', icon: Sparkles, detail: 'Applied intelligence' },
+              { name: 'AI Voice Services', href: 'mailto:solutions@datanyansa.com?subject=AI%20Voice%20Services', icon: AudioLines, detail: 'Voice solutions' },
+              { name: 'Fintech Innovations', href: 'mailto:solutions@datanyansa.com?subject=Fintech%20Innovations', icon: Landmark, detail: 'Financial technology' },
+            ].map((initiative) => {
+              const Icon = initiative.icon
+              return (
+                <a
+                  key={initiative.name}
+                  href={initiative.href}
+                  target={initiative.href.startsWith('http') ? '_blank' : undefined}
+                  rel={initiative.href.startsWith('http') ? 'noopener noreferrer' : undefined}
+                  className="group flex flex-col justify-between min-h-40 rounded-xl border border-border bg-background p-5 hover:border-primary hover:shadow-md transition-all"
+                >
+                  <div className="flex h-11 w-11 items-center justify-center rounded-lg bg-primary/10 text-primary group-hover:bg-primary group-hover:text-primary-foreground transition-colors">
+                    <Icon className="h-5 w-5" aria-hidden="true" />
+                  </div>
+                  <div className="mt-8">
+                    <h3 className="font-semibold text-foreground leading-snug">{initiative.name}</h3>
+                    <p className="mt-1 text-sm text-foreground/55">{initiative.detail}</p>
+                  </div>
+                </a>
+              )
+            })}
           </div>
         </div>
       </section>
