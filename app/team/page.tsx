@@ -27,6 +27,13 @@ const teamMembers: TeamMember[] = [
     image: '/mildred-asaah.jpeg',
   },
   {
+    name: 'Eric Osiakwan',
+    role: 'Consultant',
+    bio: 'Technology investment and innovation consultant supporting strategic advisory and growth-focused solutions.',
+    expertise: ['Tech Investment', 'Advisory', 'Innovation'],
+    image: '/eric-osiakwan.png',
+  },
+  {
     name: 'Gobarshev Zanus',
     role: 'Data & Technology Specialist',
     bio: 'Data-focused technology professional combining analysis, design, and development to create practical digital solutions.',
