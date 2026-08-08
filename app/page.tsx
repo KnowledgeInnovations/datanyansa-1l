@@ -145,6 +145,35 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Partners */}
+      <section className="border-y border-border bg-card py-12 overflow-hidden" aria-labelledby="partners-heading">
+        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+          <div className="flex items-center justify-between gap-6 mb-8">
+            <h2 id="partners-heading" className="text-sm font-semibold uppercase tracking-[0.2em] text-primary">Partners</h2>
+            <a href="https://ghanaaisummit.com" target="_blank" rel="noopener noreferrer" className="text-sm text-foreground/55 hover:text-primary transition-colors">
+              Ghana AI Summit
+            </a>
+          </div>
+          <div className="relative -mx-4 overflow-hidden sm:-mx-6 lg:-mx-8">
+            <div className="flex w-max items-center gap-5 animate-[partner-scroll_36s_linear_infinite] hover:[animation-play-state:paused]">
+              {[...Array(2)].flatMap((_, copy) => [
+                ['Knowledge Innovations', 'https://ghanaaisummit.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NjY4LCJwdXIiOiJibG9iX2lkIn19--dd196635e3d9995bac5371a4c1dfe522f23ab431/Partners-Knowledge-Innovation.png'],
+                ['Meta', 'https://ghanaaisummit.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NjY5LCJwdXIiOiJibG9iX2lkIn19--55249f81693f5afe78fb95f32fe9baa2d407a22b/meta-log.png'],
+                ['Deloitte', 'https://ghanaaisummit.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NjcwLCJwdXIiOiJibG9iX2lkIn19--7da4ba7c538ed672dd5b218b5a0324128710a1c0/Deloitte.png'],
+                ['The AI Collective', 'https://ghanaaisummit.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NjcxLCJwdXIiOiJibG9iX2lkIn19--cfabd76e2c036910062b7078780d9c0c3a7a455c/the-ai-collective.jpeg'],
+                ['Ghana AI Research Network', 'https://ghanaaisummit.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NjkwLCJwdXIiOiJibG9iX2lkIn19--65c371d907112d1fd5c410489b0c9200b56812a8/gains.png'],
+                ['NyasaAI Solutions', 'https://ghanaaisummit.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NjkyLCJwdXIiOiJibG9iX2lkIn19--6cd7eaf4c06a282c583ca71309c4b2493f7f993e/partner-nyasa.jpg'],
+              ].map(([name, src]) => (
+                <a key={`${copy}-${name}`} href="https://ghanaaisummit.com" target="_blank" rel="noopener noreferrer" className="flex h-24 w-40 shrink-0 items-center justify-center rounded-xl border border-border bg-background px-4 grayscale hover:grayscale-0 transition-all">
+                  <img src={src} alt={`${name} partner logo`} className="max-h-14 max-w-full object-contain" loading="lazy" />
+                </a>
+              )))}
+            </div>
+          </div>
+        </div>
+        <style>{`@keyframes partner-scroll { from { transform: translateX(0); } to { transform: translateX(-50%); } }`}</style>
+      </section>
+
       {/* Why Choose Us */}
       <section className="py-20 lg:py-28">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
