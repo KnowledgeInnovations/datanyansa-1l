@@ -62,6 +62,13 @@ const teamMembers: TeamMember[] = [
     image: '/eugenia-blay.png',
   },
   {
+    name: 'Dzifa Amenya',
+    role: 'Consultant',
+    bio: 'Consultant supporting organizations through digital transformation, change management, and effective project delivery.',
+    expertise: ['Digital Transformation', 'Change Management', 'Project Management'],
+    image: '/dzifa-amenya.png',
+  },
+  {
     name: 'James Wilson',
     role: 'Lead Consultant, Fintech',
     bio: 'Former Chief Technology Officer at blockchain startup, now leading fintech consulting with focus on digital transformation.',
