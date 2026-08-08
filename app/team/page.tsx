@@ -69,6 +69,13 @@ const teamMembers: TeamMember[] = [
     image: '/dzifa-amenya.png',
   },
   {
+    name: 'Charity Ahiatrogah',
+    role: 'Project Admin',
+    bio: 'Project administration professional supporting finance, operations, and effective project delivery.',
+    expertise: ['Finance', 'Admin', 'Project Management'],
+    image: '/charity-ahiatrogah.jpeg',
+  },
+  {
     name: 'James Wilson',
     role: 'Lead Consultant, Fintech',
     bio: 'Former Chief Technology Officer at blockchain startup, now leading fintech consulting with focus on digital transformation.',
