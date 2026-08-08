@@ -41,6 +41,13 @@ const teamMembers: TeamMember[] = [
     image: '/muheeb-nuaku.png',
   },
   {
+    name: 'Julia Osei',
+    role: 'Frontend-Focused Full-Stack Developer | Web + Mobile',
+    bio: 'Frontend-focused full-stack developer building web and mobile products with modern JavaScript and TypeScript technologies.',
+    expertise: ['React Native', 'React', 'Next.js', 'TypeScript'],
+    image: '/julia-osei.png',
+  },
+  {
     name: 'James Wilson',
     role: 'Lead Consultant, Fintech',
     bio: 'Former Chief Technology Officer at blockchain startup, now leading fintech consulting with focus on digital transformation.',
