@@ -76,6 +76,13 @@ const teamMembers: TeamMember[] = [
     image: '/charity-ahiatrogah.jpeg',
   },
   {
+    name: 'Gilbert Agyeman',
+    role: 'Director, Finance',
+    bio: 'Chartered Accountant overseeing financial strategy, planning, and governance for Data Nyansa.',
+    expertise: ['Chartered Accountancy', 'Finance', 'Financial Governance'],
+    image: '/gilbert-agyeman.png',
+  },
+  {
     name: 'James Wilson',
     role: 'Lead Consultant, Fintech',
     bio: 'Former Chief Technology Officer at blockchain startup, now leading fintech consulting with focus on digital transformation.',
