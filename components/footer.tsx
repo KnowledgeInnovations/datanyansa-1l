@@ -19,7 +19,9 @@ export default function Footer() {
             <p className="text-sm opacity-90 mb-4">Intelligence built on data.</p>
             <div className="flex gap-4">
               <a
-                href="#"
+                href="https://linkedin.com/company/datanyansa"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="hover:opacity-80 transition-opacity"
                 aria-label="LinkedIn"
               >
