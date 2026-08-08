@@ -27,11 +27,11 @@ const teamMembers: TeamMember[] = [
     image: '/dzifa-amenya.png',
   },
   {
-    name: 'Mildred Asaah',
-    role: 'Communications & Marketing Lead',
-    bio: 'Experienced communications and marketing professional focused on strengthening public relations, brand visibility, and stakeholder engagement.',
-    expertise: ['Communication', 'Public Relations', 'Marketing'],
-    image: '/mildred-asaah.jpeg',
+    name: 'Muheeb (Kwabena) Nuaku',
+    role: 'AI Automation Specialist | Software Engineer | Tech Solutions',
+    bio: 'Technology professional focused on AI automation, software engineering, and practical technology solutions.',
+    expertise: ['AI Automation', 'Software Engineering', 'Tech Solutions'],
+    image: '/muheeb-nuaku.png',
   },
   {
     name: 'Eric Osiakwan',
@@ -46,13 +46,6 @@ const teamMembers: TeamMember[] = [
     bio: 'Data-focused technology professional combining analysis, design, and development to create practical digital solutions.',
     expertise: ['Data Analysis', 'Design', 'Developer'],
     image: '/gobarshev-zanus.png',
-  },
-  {
-    name: 'Muheeb (Kwabena) Nuaku',
-    role: 'AI Automation Specialist | Software Engineer | Tech Solutions',
-    bio: 'Technology professional focused on AI automation, software engineering, and practical technology solutions.',
-    expertise: ['AI Automation', 'Software Engineering', 'Tech Solutions'],
-    image: '/muheeb-nuaku.png',
   },
   {
     name: 'Julia Osei',
