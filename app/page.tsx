@@ -148,11 +148,8 @@ export default function Home() {
       {/* Partners */}
       <section className="border-y border-border bg-card py-12 overflow-hidden" aria-labelledby="partners-heading">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <div className="flex items-center justify-between gap-6 mb-8">
+          <div className="mb-8">
             <h2 id="partners-heading" className="text-sm font-semibold uppercase tracking-[0.2em] text-primary">Partners</h2>
-            <a href="https://ghanaaisummit.com" target="_blank" rel="noopener noreferrer" className="text-sm text-foreground/55 hover:text-primary transition-colors">
-              Ghana AI Summit
-            </a>
           </div>
           <div className="relative -mx-4 overflow-hidden sm:-mx-6 lg:-mx-8">
             <div className="flex w-max items-center gap-5 animate-[partner-scroll_36s_linear_infinite] hover:[animation-play-state:paused]">
