@@ -20,6 +20,13 @@ const teamMembers: TeamMember[] = [
     image: '/kwami-ahiabenu.jpeg',
   },
   {
+    name: 'Dzifa Amenya',
+    role: 'Consultant',
+    bio: 'Consultant supporting organizations through digital transformation, change management, and effective project delivery.',
+    expertise: ['Digital Transformation', 'Change Management', 'Project Management'],
+    image: '/dzifa-amenya.png',
+  },
+  {
     name: 'Mildred Asaah',
     role: 'Communications & Marketing Lead',
     bio: 'Experienced communications and marketing professional focused on strengthening public relations, brand visibility, and stakeholder engagement.',
@@ -60,13 +67,6 @@ const teamMembers: TeamMember[] = [
     bio: 'Consultant specializing in digital transformation, innovation, and fintech strategy.',
     expertise: ['Digital Transformation', 'Innovation', 'Fintech'],
     image: '/eugenia-blay.png',
-  },
-  {
-    name: 'Dzifa Amenya',
-    role: 'Consultant',
-    bio: 'Consultant supporting organizations through digital transformation, change management, and effective project delivery.',
-    expertise: ['Digital Transformation', 'Change Management', 'Project Management'],
-    image: '/dzifa-amenya.png',
   },
   {
     name: 'Charity Ahiatrogah',
