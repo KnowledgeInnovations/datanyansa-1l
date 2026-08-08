@@ -27,10 +27,11 @@ const teamMembers: TeamMember[] = [
     image: '/mildred-asaah.jpeg',
   },
   {
-    name: 'Dr. Michael Thompson',
-    role: 'Head of AI Research',
-    bio: 'PhD in Computer Science, published researcher in deep learning and natural language processing with 12 years industry experience.',
-    expertise: ['Deep Learning', 'NLP', 'Research Methodologies'],
+    name: 'Gobarshev Zanus',
+    role: 'Data & Technology Specialist',
+    bio: 'Data-focused technology professional combining analysis, design, and development to create practical digital solutions.',
+    expertise: ['Data Analysis', 'Design', 'Developer'],
+    image: '/gobarshev-zanus.png',
   },
   {
     name: 'Priya Patel',
