@@ -252,6 +252,40 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Videos */}
+      <section className="border-t border-border bg-card py-16 lg:py-20" aria-labelledby="videos-heading">
+        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+          <div className="mb-10">
+            <p className="text-sm font-semibold uppercase tracking-[0.2em] text-primary mb-3">Watch and learn</p>
+            <h2 id="videos-heading" className="text-3xl sm:text-4xl font-bold text-foreground mb-4">Videos</h2>
+            <p className="text-lg text-foreground/60 max-w-2xl">
+              Explore conversations, insights, and stories from the Data Nyansa community.
+            </p>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            {[
+              { id: 'yXK_VEj6xy0', title: 'Data Nyansa insights' },
+              { id: 'a7EUu5rPy9Y', title: 'Innovation and technology' },
+              { id: 'dIwXnrDkXWE', title: 'AI and fintech perspectives' },
+              { id: 'fRlOMghGxxQ', title: 'Building with data' },
+            ].map((video) => (
+              <div key={video.id} className="overflow-hidden rounded-xl border border-border bg-background shadow-sm">
+                <div className="aspect-video">
+                  <iframe
+                    className="h-full w-full"
+                    src={`https://www.youtube.com/embed/${video.id}`}
+                    title={video.title}
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerPolicy="strict-origin-when-cross-origin"
+                    allowFullScreen
+                  />
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
       <Footer />
     </div>
   )
