@@ -52,7 +52,7 @@ export default function Home() {
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-4">
             {[
               { name: 'Ghana AI Summit', href: 'https://ghanaaisummit.com', icon: Globe2, detail: 'AI ecosystem' },
-              { name: 'Smart Stock Africa', href: 'https://smartstockafrica.com', icon: BarChart3, detail: 'Market intelligence' },
+              { name: 'Smart Stock Africa', href: 'https://smartstockafrica.com', icon: BarChart3, detail: 'Health Intelligence' },
               { name: 'Nyansa AI', href: 'https://nyansaai.com', icon: Sparkles, detail: 'Applied intelligence' },
               { name: 'Kasagadi', href: 'https://kasagadi.ai', icon: ShieldCheck, detail: 'AI Anti Disinfo Tool' },
               { name: 'Nyansa AI Sovereign', href: 'https://nyansaai.com/sovereign', icon: Landmark, detail: 'AI Sovereign Solution' },
