@@ -55,7 +55,7 @@ export default function Home() {
               { name: 'Smart Stock Africa', href: 'https://smartstockafrica.com', icon: BarChart3, detail: 'Market intelligence' },
               { name: 'Nyansa AI', href: 'https://nyansaai.com', icon: Sparkles, detail: 'Applied intelligence' },
               { name: 'Kasagadi', href: 'https://kasagadi.ai', icon: ShieldCheck, detail: 'AI Anti Disinfo Tool' },
-              { name: 'Fintech Innovations', href: 'mailto:solutions@datanyansa.com?subject=Fintech%20Innovations', icon: Landmark, detail: 'Financial technology' },
+              { name: 'Nyansa AI Sovereign', href: 'https://nyansaai.com/sovereign', icon: Landmark, detail: 'AI Sovereign Solution' },
             ].map((initiative) => {
               const Icon = initiative.icon
               return (
