@@ -1,7 +1,7 @@
 import Header from '@/components/header'
 import Footer from '@/components/footer'
 import Link from 'next/link'
-import { ArrowRight, Brain, TrendingUp, BookOpen, Users, Zap, LineChart, Globe2, BarChart3, Sparkles, ShieldCheck, Landmark } from 'lucide-react'
+import { ArrowRight, Brain, TrendingUp, BookOpen, Users, Zap, LineChart, Globe2, BarChart3, Sparkles, ShieldCheck, Landmark, Sprout } from 'lucide-react'
 
 export default function Home() {
   return (
@@ -49,9 +49,10 @@ export default function Home() {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-4">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-6 gap-4">
             {[
               { name: 'Ghana AI Summit', href: 'https://ghanaaisummit.com', icon: Globe2, detail: 'AI ecosystem' },
+              { name: 'Cropredict', href: 'https://cropredict.com', icon: Sprout, detail: 'Agric Intelligence' },
               { name: 'Smart Stock Africa', href: 'https://smartstockafrica.com', icon: BarChart3, detail: 'Health Intelligence' },
               { name: 'Nyansa AI', href: 'https://nyansaai.com', icon: Sparkles, detail: 'Applied intelligence' },
               { name: 'Kasagadi', href: 'https://kasagadi.ai', icon: ShieldCheck, detail: 'AI Anti Disinfo Tool' },
