@@ -1,7 +1,7 @@
 import Header from '@/components/header'
 import Footer from '@/components/footer'
 import Link from 'next/link'
-import { ArrowRight, Brain, TrendingUp, BookOpen, Users, Zap, LineChart, Globe2, BarChart3, Sparkles, AudioLines, Landmark } from 'lucide-react'
+import { ArrowRight, Brain, TrendingUp, BookOpen, Users, Zap, LineChart, Globe2, BarChart3, Sparkles, ShieldCheck, Landmark } from 'lucide-react'
 
 export default function Home() {
   return (
@@ -54,7 +54,7 @@ export default function Home() {
               { name: 'Ghana AI Summit', href: 'https://ghanaaisummit.com', icon: Globe2, detail: 'AI ecosystem' },
               { name: 'Smart Stock Africa', href: 'https://smartstockafrica.com', icon: BarChart3, detail: 'Market intelligence' },
               { name: 'Nyansa AI', href: 'https://nyansaai.com', icon: Sparkles, detail: 'Applied intelligence' },
-              { name: 'AI Voice Services', href: 'mailto:solutions@datanyansa.com?subject=AI%20Voice%20Services', icon: AudioLines, detail: 'Voice solutions' },
+              { name: 'Kasagadi', href: 'https://kasagadi.ai', icon: ShieldCheck, detail: 'AI Anti Disinfo Tool' },
               { name: 'Fintech Innovations', href: 'mailto:solutions@datanyansa.com?subject=Fintech%20Innovations', icon: Landmark, detail: 'Financial technology' },
             ].map((initiative) => {
               const Icon = initiative.icon
