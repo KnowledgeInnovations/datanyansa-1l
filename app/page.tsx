@@ -9,14 +9,14 @@ export default function Home() {
       <Header />
 
       {/* Hero Section */}
-      <section className="flex-1 relative overflow-hidden py-20 lg:py-32">
-        <div className="absolute inset-0 bg-gradient-to-br from-primary/5 to-accent/5" />
+      <section className="flex-1 relative overflow-hidden py-20 lg:py-32 bg-[url('/ghana-ai-summit-hero.jpg')] bg-cover bg-center">
+        <div className="absolute inset-0 bg-foreground/65" />
         <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl">
-            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-foreground mb-6 leading-tight">
+            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-primary-foreground mb-6 leading-tight">
               Intelligence Built on <span className="text-primary">Data</span>
             </h1>
-            <p className="text-lg text-foreground/70 mb-8 leading-relaxed">
+            <p className="text-lg text-primary-foreground/90 mb-8 leading-relaxed">
               We transform complex data into actionable insights through cutting-edge AI research, advanced fintech solutions, and strategic advisory services for enterprises and financial institutions.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
@@ -29,7 +29,7 @@ export default function Home() {
               </Link>
               <Link
                 href="/contact"
-                className="inline-flex items-center justify-center px-6 py-3 rounded-lg border-2 border-primary text-primary font-semibold hover:bg-primary/5 transition-colors"
+                className="inline-flex items-center justify-center px-6 py-3 rounded-lg border-2 border-primary-foreground text-primary-foreground font-semibold hover:bg-primary-foreground/10 transition-colors"
               >
                 Get in Touch
               </Link>
