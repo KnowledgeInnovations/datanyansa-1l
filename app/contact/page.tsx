@@ -33,13 +33,14 @@ export default function ContactPage() {
       <Header />
 
       {/* Hero */}
-      <section className="relative py-20 lg:py-32 bg-gradient-to-br from-primary/5 to-accent/5">
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+      <section className="relative overflow-hidden py-20 lg:py-32 bg-[url('/contact-background.jpg')] bg-cover bg-center">
+        <div className="absolute inset-0 bg-foreground/65" />
+        <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl">
-            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-foreground mb-6">
+            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-primary-foreground mb-6">
               Get in Touch
             </h1>
-            <p className="text-xl text-foreground/70 mb-8">
+            <p className="text-xl text-primary-foreground/90 mb-8">
               We&apos;d love to hear from you. Reach out to our team to discuss your needs and explore how we can help.
             </p>
           </div>
