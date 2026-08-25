@@ -99,6 +99,11 @@ export default function Footer() {
                   Contact
                 </Link>
               </li>
+              <li>
+                <Link href="/privacy" className="opacity-90 hover:opacity-100 transition-opacity">
+                  Privacy Statement
+                </Link>
+              </li>
             </ul>
           </div>
 
