@@ -580,9 +580,9 @@ export default function PrivacyPage() {
                       </div>
                       <h3 className="mt-5 font-semibold">Data Nyansa</h3>
                       <p className="mt-2 leading-7 text-foreground/70">
-                        31 Tumu Avenue, Kanda
+                        120 Parliament Street, ON
                         <br />
-                        Accra, Ghana
+                        Toronto, Canada
                       </p>
                       <p className="mt-2 text-sm text-foreground/60">
                         Digital Address: GA-003-5259

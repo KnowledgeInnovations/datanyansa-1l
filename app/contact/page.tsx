@@ -1,32 +1,36 @@
-'use client'
+"use client";
 
-import Header from '@/components/header'
-import Footer from '@/components/footer'
-import { Mail, Phone, MapPin, Send } from 'lucide-react'
-import { useState } from 'react'
+import Header from "@/components/header";
+import Footer from "@/components/footer";
+import { Mail, Phone, MapPin, Send } from "lucide-react";
+import { useState } from "react";
 
 export default function ContactPage() {
   const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    company: '',
-    subject: '',
-    message: '',
-  })
+    name: "",
+    email: "",
+    company: "",
+    subject: "",
+    message: "",
+  });
 
-  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
+  const handleChange = (
+    e: React.ChangeEvent<
+      HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement
+    >,
+  ) => {
     setFormData({
       ...formData,
       [e.target.name]: e.target.value,
-    })
-  }
+    });
+  };
 
   const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault()
+    e.preventDefault();
     // Handle form submission
-    console.log('Form submitted:', formData)
-    setFormData({ name: '', email: '', company: '', subject: '', message: '' })
-  }
+    console.log("Form submitted:", formData);
+    setFormData({ name: "", email: "", company: "", subject: "", message: "" });
+  };
 
   return (
     <div className="min-h-screen bg-background flex flex-col">
@@ -41,7 +45,8 @@ export default function ContactPage() {
               Get in Touch
             </h1>
             <p className="text-xl text-primary-foreground/90 mb-8">
-              We&apos;d love to hear from you. Reach out to our team to discuss your needs and explore how we can help.
+              We&apos;d love to hear from you. Reach out to our team to discuss
+              your needs and explore how we can help.
             </p>
           </div>
         </div>
@@ -53,7 +58,9 @@ export default function ContactPage() {
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 mb-12">
             {/* Contact Info */}
             <div className="lg:col-span-1">
-              <h2 className="text-2xl font-bold text-foreground mb-8">Contact Information</h2>
+              <h2 className="text-2xl font-bold text-foreground mb-8">
+                Contact Information
+              </h2>
 
               <div className="space-y-6">
                 <div className="flex gap-4">
@@ -63,9 +70,13 @@ export default function ContactPage() {
                     </div>
                   </div>
                   <div>
-                    <h3 className="text-sm font-semibold text-foreground">Location</h3>
-                    <p className="text-foreground/70">31 Tumu Avenue, Kanda</p>
-                    <p className="text-foreground/70">Accra, Ghana</p>
+                    <h3 className="text-sm font-semibold text-foreground">
+                      Location
+                    </h3>
+                    <p className="text-foreground/70">
+                      120 Parliament Street, ON
+                    </p>
+                    <p className="text-foreground/70">Toronto, Canada</p>
                   </div>
                 </div>
 
@@ -76,9 +87,15 @@ export default function ContactPage() {
                     </div>
                   </div>
                   <div>
-                    <h3 className="text-sm font-semibold text-foreground">Email</h3>
-                    <p className="text-foreground/70">solutions@datanyansa.com</p>
-                    <p className="text-foreground/70">We&apos;ll respond within 24 hours</p>
+                    <h3 className="text-sm font-semibold text-foreground">
+                      Email
+                    </h3>
+                    <p className="text-foreground/70">
+                      solutions@datanyansa.com
+                    </p>
+                    <p className="text-foreground/70">
+                      We&apos;ll respond within 24 hours
+                    </p>
                   </div>
                 </div>
 
@@ -89,22 +106,32 @@ export default function ContactPage() {
                     </div>
                   </div>
                   <div>
-                    <h3 className="text-sm font-semibold text-foreground">Digital Address</h3>
+                    <h3 className="text-sm font-semibold text-foreground">
+                      Digital Address
+                    </h3>
                     <p className="text-foreground/70">GA-003-5259</p>
-                    <p className="text-xs text-foreground/50 mt-2">Ghana Digital Address</p>
+                    <p className="text-xs text-foreground/50 mt-2">
+                      Ghana Digital Address
+                    </p>
                   </div>
                 </div>
               </div>
 
               <div className="mt-8 pt-8 border-t border-border">
-                <h3 className="text-lg font-semibold text-foreground mb-4">Follow Us</h3>
+                <h3 className="text-lg font-semibold text-foreground mb-4">
+                  Follow Us
+                </h3>
                 <div className="flex gap-4">
                   <a
                     href="#"
                     className="inline-flex items-center justify-center h-10 w-10 rounded-lg bg-primary/10 text-primary hover:bg-primary/20 transition-colors"
                   >
                     <span className="sr-only">LinkedIn</span>
-                    <svg className="h-5 w-5" fill="currentColor" viewBox="0 0 24 24">
+                    <svg
+                      className="h-5 w-5"
+                      fill="currentColor"
+                      viewBox="0 0 24 24"
+                    >
                       <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
                     </svg>
                   </a>
@@ -113,7 +140,11 @@ export default function ContactPage() {
                     className="inline-flex items-center justify-center h-10 w-10 rounded-lg bg-primary/10 text-primary hover:bg-primary/20 transition-colors"
                   >
                     <span className="sr-only">Twitter</span>
-                    <svg className="h-5 w-5" fill="currentColor" viewBox="0 0 24 24">
+                    <svg
+                      className="h-5 w-5"
+                      fill="currentColor"
+                      viewBox="0 0 24 24"
+                    >
                       <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2s9 5 20 5a9.5 9.5 0 00-9-5.5c4.75 2.25 7-7 7-7a10.6 10.6 0 01-9-5.5" />
                     </svg>
                   </a>
@@ -133,7 +164,10 @@ export default function ContactPage() {
               <form onSubmit={handleSubmit} className="space-y-6">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                   <div>
-                    <label htmlFor="name" className="block text-sm font-medium text-foreground mb-2">
+                    <label
+                      htmlFor="name"
+                      className="block text-sm font-medium text-foreground mb-2"
+                    >
                       Full Name *
                     </label>
                     <input
@@ -148,7 +182,10 @@ export default function ContactPage() {
                     />
                   </div>
                   <div>
-                    <label htmlFor="email" className="block text-sm font-medium text-foreground mb-2">
+                    <label
+                      htmlFor="email"
+                      className="block text-sm font-medium text-foreground mb-2"
+                    >
                       Email Address *
                     </label>
                     <input
@@ -165,7 +202,10 @@ export default function ContactPage() {
                 </div>
 
                 <div>
-                  <label htmlFor="company" className="block text-sm font-medium text-foreground mb-2">
+                  <label
+                    htmlFor="company"
+                    className="block text-sm font-medium text-foreground mb-2"
+                  >
                     Company
                   </label>
                   <input
@@ -180,7 +220,10 @@ export default function ContactPage() {
                 </div>
 
                 <div>
-                  <label htmlFor="subject" className="block text-sm font-medium text-foreground mb-2">
+                  <label
+                    htmlFor="subject"
+                    className="block text-sm font-medium text-foreground mb-2"
+                  >
                     Subject *
                   </label>
                   <select
@@ -192,7 +235,9 @@ export default function ContactPage() {
                     className="w-full px-4 py-2 rounded-lg border border-border bg-card text-foreground focus:outline-none focus:ring-2 focus:ring-primary"
                   >
                     <option value="">Select a subject</option>
-                    <option value="ai-advisory">AI Advisory, Solutions & Research</option>
+                    <option value="ai-advisory">
+                      AI Advisory, Solutions & Research
+                    </option>
                     <option value="fintech-training">Fintech Training</option>
                     <option value="training">Training & Consultancy</option>
                     <option value="partnership">Partnership Opportunity</option>
@@ -201,7 +246,10 @@ export default function ContactPage() {
                 </div>
 
                 <div>
-                  <label htmlFor="message" className="block text-sm font-medium text-foreground mb-2">
+                  <label
+                    htmlFor="message"
+                    className="block text-sm font-medium text-foreground mb-2"
+                  >
                     Message *
                   </label>
                   <textarea
@@ -225,7 +273,8 @@ export default function ContactPage() {
                 </button>
 
                 <p className="text-xs text-foreground/50">
-                  We&apos;ll get back to you as soon as possible. Please note that all fields marked with * are required.
+                  We&apos;ll get back to you as soon as possible. Please note
+                  that all fields marked with * are required.
                 </p>
               </form>
             </div>
@@ -236,7 +285,9 @@ export default function ContactPage() {
       {/* Quick Links */}
       <section className="py-20 lg:py-28 bg-card border-y border-border">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <h2 className="text-2xl font-bold text-foreground mb-8 text-center">What Can We Help You With?</h2>
+          <h2 className="text-2xl font-bold text-foreground mb-8 text-center">
+            What Can We Help You With?
+          </h2>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
             <a
@@ -273,5 +324,5 @@ export default function ContactPage() {
 
       <Footer />
     </div>
-  )
+  );
 }
