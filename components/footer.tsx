@@ -155,7 +155,13 @@ export default function Footer() {
                     120 Parliament Street, ON
                   </span>
                   <span className="opacity-90 block">Toronto, Canada</span>
-                  {/* <span className="text-xs opacity-75 block mt-1">Digital: GA-003-5259</span> */}
+                  <span className="opacity-90 block">
+                    31 Tumu Avenue, Kanda
+                  </span>
+                  <span className="opacity-90 block">Accra, Ghana</span>
+                  <span className="text-xs opacity-75 block mt-1">
+                    Digital: GA-003-5259
+                  </span>
                 </div>
               </div>
               <div className="flex gap-2">

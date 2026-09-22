@@ -583,9 +583,10 @@ export default function PrivacyPage() {
                         120 Parliament Street, ON
                         <br />
                         Toronto, Canada
-                      </p>
-                      <p className="mt-2 text-sm text-foreground/60">
-                        Digital Address: GA-003-5259
+                        <br />
+                        31 Tumu Avenue, Kanda
+                        <br />
+                        Accra, Ghana
                       </p>
                     </div>
                     <div className="rounded-2xl border border-border bg-card p-6">

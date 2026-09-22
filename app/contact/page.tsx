@@ -76,7 +76,11 @@ export default function ContactPage() {
                     <p className="text-foreground/70">
                       120 Parliament Street, ON
                     </p>
-                    <p className="text-foreground/70">Toronto, Canada</p>
+                    <p className="text-foreground/70 font-bold">
+                      Toronto, Canada
+                    </p>
+                    <p className="text-foreground/70">31 Tumu Avenue, Kanda</p>
+                    <p className="text-foreground/70 font-bold">Accra, Ghana</p>
                   </div>
                 </div>
 
