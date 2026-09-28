@@ -69,18 +69,24 @@ export default function ContactPage() {
                       <MapPin className="h-5 w-5 text-primary" />
                     </div>
                   </div>
-                  <div>
-                    <h3 className="text-sm font-semibold text-foreground">
-                      Location
-                    </h3>
-                    <p className="text-foreground/70">
-                      120 Parliament Street, ON
-                    </p>
-                    <p className="text-foreground/70 font-bold">
-                      Toronto, Canada
-                    </p>
-                    <p className="text-foreground/70">31 Tumu Avenue, Kanda</p>
-                    <p className="text-foreground/70 font-bold">Accra, Ghana</p>
+                  <div className="space-y-4 ">
+                    <div>
+                      <span className="font-bold">North America Office</span>
+                      <span className="opacity-90 block">
+                        120 Parliament Street, ON
+                      </span>
+                      <span className="opacity-90 block">Toronto, Canada</span>
+                    </div>
+                    <div>
+                      <span className="font-bold">Ghana Office</span>
+                      <span className="opacity-90 block">
+                        31 Tumu Avenue, Kanda
+                      </span>
+                      <span className="opacity-90 block">Accra, Ghana</span>
+                    </div>
+                    <span className="text-xs opacity-75 block mt-1">
+                      Digital: GA-003-5259
+                    </span>
                   </div>
                 </div>
 
