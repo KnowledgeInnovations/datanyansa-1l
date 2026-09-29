@@ -212,7 +212,12 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="border-t border-primary-foreground/20 pt-8 text-center text-sm opacity-75">
+        <div className="border-t flex flex-col items-center align-middle gap-2 border-primary-foreground/20 pt-8 text-center text-sm opacity-75 ">
+          <p className="w-2/3 ">
+            We process personal data in compliance with the Data Protection Act,
+            2012 (Act 843) of Ghana. We are registered as a data controller with
+            the Data Protection Commission (DPC).
+          </p>
           <p>&copy; {currentYear} Data Nyansa. All rights reserved.</p>
         </div>
       </div>
