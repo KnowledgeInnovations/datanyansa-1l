@@ -67,7 +67,7 @@ export default function Footer() {
                 </svg>
               </a>
               <a
-                href="https://web.facebook.com/Knowledgeinnovations/"
+                href="https://web.facebook.com/ghanaaisummit/"
                 className="hover:opacity-80 transition-opacity"
                 aria-label="Facebook"
               >
